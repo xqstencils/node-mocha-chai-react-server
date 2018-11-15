@@ -88,7 +88,7 @@ $> yarn start
 
 ```sh
 $> docker pull xqstencils/node-mocha-chai-react-server
-$> docker run --name node-mocha-chai-react-server -d -p 80:80 xqstencils/node-jest-react-server
+$> docker run --name node-mocha-chai-react-server -d -p 80:80 xqstencils/node-mocha-chai-react-server
 ```
 
 ### Access the online site
