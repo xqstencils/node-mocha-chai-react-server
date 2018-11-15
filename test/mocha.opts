@@ -1,0 +1,8 @@
+# mocha.opts
+
+--require @babel/register
+--require ignore-styles
+--require jsdom-global/register
+--reporter mochawesome
+--recursive test/**/*.js
+--reporter-options reportDir=reports,reportFilename=index

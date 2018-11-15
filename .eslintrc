@@ -1,0 +1,30 @@
+{
+  parser: "babel-eslint",
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+  ],
+  env: {
+    es6: true,
+    node: true,
+    mocha: true,
+    browser: true
+  },
+  parserOptions: {
+    ecmaVersion: 7,
+    ecmaFeatures: {},
+    sourceType: "module"
+  },
+  plugins: [
+    "react"
+  ],
+  settings: {
+    react: {
+      version: "16.5"
+    }
+  },
+  rules: {
+    indent: ["error", 2],
+    no-empty-pattern: 0
+  }
+}

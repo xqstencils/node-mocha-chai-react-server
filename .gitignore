@@ -1,5 +1,11 @@
-# Object file
-*.o
+.DS_Store
+npm-debug.log
+yarn-error.log
 
-# Ada Library Information
-*.ali
+.idea/
+lib/
+dist/
+target/
+reports/
+coverage/
+node_modules/
