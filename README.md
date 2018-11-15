@@ -84,6 +84,19 @@ $> yarn audit
 $> yarn start
 ```
 
+### Start with docker
+
+```sh
+$> docker pull xqstencils/node-mocha-chai-react-server
+$> docker run --name node-mocha-chai-react-server -d -p 80:80 xqstencils/node-jest-react-server
+```
+
+### Access the online site
+
+```sh
+$> open https://node-mocha-chai-react-server.herokuapp.com
+```
+
 ## License
 
 node-mocha-chai-react-server is released under the [MIT license](https://github.com/xqstencils/node-mocha-chai-react-server/blob/master/LICENSE).
